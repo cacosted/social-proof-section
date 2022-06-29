@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after
+{
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-magent: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+
+    --gray-magenta: hsl(303, 10%, 53%);
+    --light-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+
+    --regular-font: 0.9375rem;
+
+    --light: 400;
+    --regular: 500;
+    --bold: 700;
+
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+    font-size: var(--regular-font);
+}
+
+img {
+    max-width: 100%;
+}
