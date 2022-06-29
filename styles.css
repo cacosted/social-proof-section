@@ -24,8 +24,39 @@
 body {
     font-family: 'League Spartan', sans-serif;
     font-size: var(--regular-font);
+    color: var(--dark-magent);
 }
 
 img {
     max-width: 100%;
+}
+
+/* ######### Layout */
+.container {
+    background-color: var(--white);
+}
+
+
+.section__testimonials {
+    color: var(--white);
+}
+
+/* ######### Ratings */
+.rating__description {
+    color: var(--gray-magenta);
+}
+
+.rating__card {
+    background-color: var(--light-magenta);
+}
+
+
+/* ######### Testimonials */
+
+.testimonial__card {
+    background-color: var(--dark-magent);
+}
+
+.profile__tag {
+    color: var(--soft-pink);
 }
