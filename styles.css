@@ -48,13 +48,23 @@ img {
     width: 90%;
     max-width: 18rem;
     margin-inline: auto;
+
+    display: grid;
+    gap: 3em;
 }
+
 .main__container {
     background-color: var(--white);
+    margin-block: 5rem;
+}
+
+.rating__section {
+    display: grid;
+    gap: 2rem;
 }
 
 
-.section__testimonials {
+.testimonial__section {
     color: var(--white);
 
     display: grid;
@@ -62,12 +72,45 @@ img {
 }
 
 /* ######### Ratings */
+.rating__content {
+    text-align: center;
+
+    display: grid;
+    gap: 1rem;
+}
+
+.rating__title {
+    font-size: 2.1rem;
+    max-width: 11ch;
+    margin-inline: auto;
+    line-height: .9;
+}
+
 .rating__description {
     color: var(--gray-magenta);
 }
 
+.rating__container {
+    display: grid;
+    gap: 1em;
+}
+
 .rating__card {
     background-color: var(--light-magenta);
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.rating__stars {
+    display: flex;
+    justify-content: center;
+    gap: .8em;
+    margin-block-end: .6em;
+}
+
+.rating__text {
+    text-align: center;
+    font-weight: bold;
 }
 
 
