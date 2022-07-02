@@ -6,7 +6,7 @@
 }
 
 :root {
-    --dark-magent: hsl(300, 43%, 22%);
+    --dark-magenta: hsl(300, 43%, 22%);
     --soft-pink: hsl(333, 80%, 67%);
 
     --gray-magenta: hsl(303, 10%, 53%);
@@ -24,7 +24,19 @@
 body {
     font-family: 'League Spartan', sans-serif;
     font-size: var(--regular-font);
-    color: var(--dark-magent);
+    color: var(--dark-magenta);
+}
+
+h1,
+h2 {
+    margin: 0;
+    font-weight: 700;
+}
+
+p {
+    margin: 0;
+    max-width: 40ch;
+    line-height: 1.4;
 }
 
 img {
@@ -33,12 +45,20 @@ img {
 
 /* ######### Layout */
 .container {
+    width: 90%;
+    max-width: 18rem;
+    margin-inline: auto;
+}
+.main__container {
     background-color: var(--white);
 }
 
 
 .section__testimonials {
     color: var(--white);
+
+    display: grid;
+    gap: 1rem;
 }
 
 /* ######### Ratings */
@@ -54,9 +74,49 @@ img {
 /* ######### Testimonials */
 
 .testimonial__card {
-    background-color: var(--dark-magent);
+    background-color: var(--dark-magenta);
+    border-radius: 7px;
+    overflow: hidden;
+    padding-block: 2rem;
+    padding-inline: 1.5rem;
+}
+
+.testimonial__header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.testimonial__image {
+    margin: 0;
+
+    border-radius: 50px;
+    overflow: hidden;
+
+    width: 14%;
+
+}
+
+.testimonial__profile {
+    font-size: .8rem;
+}
+
+
+
+.testimonial__body {
+    margin-block-start: 1.5rem;
+}
+
+
+
+/* ######### Profile */
+
+.profile__name {
+    font-size: 1em;
 }
 
 .profile__tag {
     color: var(--soft-pink);
+    font-size: 1em;
+    font-weight: 500;
 }
