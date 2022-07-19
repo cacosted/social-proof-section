@@ -21,11 +21,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Preview Screenshot](https://user-images.githubusercontent.com/57645180/179663318-f960a85a-ff7b-4090-a3e5-28273f1fe6a2.png)
 
 ### Links
 
-- Live Site URL: [Live Demo](https://your-live-site-url.com)
+- Live Site URL: [Live Demo](https://cacosted.github.io/social-proof-section/)
 
 ## My process
 
