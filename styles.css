@@ -25,6 +25,9 @@ body {
     font-family: 'League Spartan', sans-serif;
     font-size: var(--regular-font);
     color: var(--dark-magenta);
+    background-image: url('./images/bg-pattern-top-mobile.svg'), url('./images/bg-pattern-top-mobile.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom center;
 }
 
 h1,
@@ -54,7 +57,6 @@ img {
 }
 
 .main__container {
-    background-color: var(--white);
     margin-block: 5rem;
 }
 
@@ -163,7 +165,11 @@ img {
 
 /* ######### Desktop Media Query */
 
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
+    
+    body {
+        background-image: url('./images/bg-pattern-top-desktop.svg'), url('./images/bg-pattern-top-desktop.svg');
+    }
 
     .container {
         max-width: 62.5rem;
