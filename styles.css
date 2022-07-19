@@ -104,7 +104,7 @@ img {
 .rating__stars {
     display: flex;
     justify-content: center;
-    gap: .8em;
+    gap: .5em;
     margin-block-end: .6em;
 }
 
@@ -144,13 +144,9 @@ img {
     font-size: .8rem;
 }
 
-
-
 .testimonial__body {
     margin-block-start: 1.5rem;
 }
-
-
 
 /* ######### Profile */
 
@@ -162,4 +158,62 @@ img {
     color: var(--soft-pink);
     font-size: 1em;
     font-weight: 500;
+}
+
+
+/* ######### Desktop Media Query */
+
+@media (min-width: 700px) {
+
+    .container {
+        max-width: 62.5rem;
+    }
+
+    .rating__section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .rating__card {
+
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        padding-inline: 2.5rem
+    }
+
+    .rating__card:nth-child(1) {
+        position: relative;
+        left: -10em;
+    }
+
+    .rating__card:nth-child(2) {
+        position: relative;
+        left: -5em;
+
+    }
+
+
+    .rating__content {
+        text-align: start;
+    }
+
+    .rating__title {
+        margin: 0;
+        font-size: 3rem;
+    }
+
+    .testimonial__section {
+        display: flex;
+    }
+
+    .testimonial__card:nth-child(2) {
+        position: relative;
+        top: 1em;
+    }
+
+    .testimonial__card:nth-child(3) {
+        position: relative;
+        top: 2em;
+    }
 }
